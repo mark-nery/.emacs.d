@@ -1,0 +1,29 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/marknery/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/marknery/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "README.md"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/marknery/.emacs.d/" (20720 42226) "README.md" "places" "init.el" "elpa/" "backups/" "auto-save-list/" ".smex-items" ".git/" "../" "./")
+
+ ("/Users/marknery/" (20720 42190) "work/" "Public/" "PorticoApp/" "playground/" "Pictures/" "Music/" "Movies/" "Library/" "GH/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" ".zshrc~" ".zshrc" ".zsh_history" ".zsh-update" ".zsh/" ".zprofile" ".zcompdump" ".viminfo" ".Trash/" ".ssh/" ".rvm/" ".oh-my-zsh/" ".npm/" ".netrc" ".m2/" ".lein/" ".jline-clojure.main.history" ".irb_history" ".ido.last" ".heroku/" ".emacs.d/" ".DS_Store" ".dropbox/" ".CFUserTextEncoding" ".bashrc" ".bash_profile" ".bash_history" "../" "./")
+
+ ("/Users/" (20708 24632) "Shared/" "marknery/" ".localized" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
