@@ -6,7 +6,13 @@
 (when (not package-archive-contents)
   (package-refresh-contents))
 
-(defvar my-packages '(starter-kit starter-kit-lisp starter-kit-ruby starter-kit-js twilight-theme)
+(defvar my-packages '(starter-kit
+                      starter-kit-lisp
+                      starter-kit-ruby
+                      starter-kit-js
+                      twilight-theme
+                      coffee-mode
+                      haml-mode)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)

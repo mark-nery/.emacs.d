@@ -1,0 +1,33 @@
+
+;; ----- smex-history -----
+(
+ eval-buffer
+ package-install
+ comment-or-uncomment-region
+ comment-box
+ replace-string
+ indent-to
+ indent-region
+)
+
+;; ----- smex-data -----
+(
+ (list-load-path-shadows . 1)
+ (color-theme-twilight . 6)
+ (package-install . 3)
+ (package-refresh-contents . 4)
+ (revert-buffer . 2)
+ (replace-string . 27)
+ (cua-mode . 2)
+ (comment-box . 21)
+ (comment-kill . 1)
+ (kill-buffer . 1)
+ (yas/new-snippet . 1)
+ (yas/find-snippets . 3)
+ (yas/load-snippet-buffer . 2)
+ (uncomment-region . 3)
+ (indent-region . 2)
+ (indent-to . 3)
+ (comment-or-uncomment-region . 3)
+ (eval-buffer . 5)
+)
