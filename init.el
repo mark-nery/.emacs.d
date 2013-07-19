@@ -12,8 +12,9 @@
                       starter-kit-js
                       twilight-theme
                       coffee-mode
-                      haml-mode)
-  "A list of packages to ensure are installed at launch.")
+                      haml-mode
+                      jade-mode)
+  " A list of packages to ensure are instsalled at launch.")
 
 (dolist (p my-packages)
   (when (not (package-installed-p p))

@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ package-refresh-contents
  eval-buffer
  package-install
  comment-or-uncomment-region
  comment-box
  replace-string
  indent-to
- indent-region
 )
 
 ;; ----- smex-data -----
@@ -15,7 +15,7 @@
  (list-load-path-shadows . 1)
  (color-theme-twilight . 6)
  (package-install . 3)
- (package-refresh-contents . 4)
+ (package-refresh-contents . 6)
  (revert-buffer . 2)
  (replace-string . 27)
  (cua-mode . 2)
