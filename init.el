@@ -13,7 +13,8 @@
                       twilight-theme
                       coffee-mode
                       haml-mode
-                      jade-mode)
+                      jade-mode
+                      haskell-mode)
   " A list of packages to ensure are instsalled at launch.")
 
 (dolist (p my-packages)
