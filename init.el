@@ -12,9 +12,11 @@
                       starter-kit-js
                       twilight-theme
                       coffee-mode
+                      clojure-mode
                       haml-mode
                       jade-mode
-                      haskell-mode)
+                      haskell-mode
+                      nrepl)
   " A list of packages to ensure are instsalled at launch.")
 
 (dolist (p my-packages)
